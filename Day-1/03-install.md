@@ -21,3 +21,8 @@
 ## macOS
 
 - Follow the steps provided in the Downloads [Page](https://developer.hashicorp.com/terraform/downloads) for macOS.
+
+## Extensions in VS Code:
+- Hashicorp for Terraform.
+- Hashicorp for HCL syntax.
+- The above both will be useful for scripting and auto suggestions.
