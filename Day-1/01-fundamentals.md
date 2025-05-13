@@ -35,3 +35,7 @@ There are multiple reasons why Terraform is used over the other IaC tools but be
 7. **Integration with Other Tools**: Terraform can be integrated with other DevOps and automation tools, such as Docker, Kubernetes, Ansible, and Jenkins, allowing you to create comprehensive automation pipelines.
 
 8. **HCL Language**: Terraform uses HashiCorp Configuration Language (HCL), which is designed specifically for defining infrastructure. It's human-readable and expressive, making it easier for both developers and operators to work with.
+
+### Notes:
+- Terraform applies API as code concept to achieve the infrastructure as code target.
+- It uses HCL scripting that can talk with AWS/Azure/Open stack/GCP through their APIs.
