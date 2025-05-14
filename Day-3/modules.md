@@ -19,3 +19,6 @@ The advantage of using Terraform modules in your infrastructure as code (IaC) pr
 8. **Scalability**: As your infrastructure grows, modules provide a scalable approach to managing complexity. You can continue to create new modules for different components of your architecture, maintaining a clean and organized codebase.
 
 9. **Security and Compliance**: Modules can encapsulate security and compliance best practices. For instance, you can create a module for launching EC2 instances with predefined security groups, IAM roles, and other security-related configurations, ensuring consistency and compliance across your deployments.
+
+### Notes:
+- Instead of having whole script in a single project or single file, this modularity in terraform helps in that. Because whole lengthy script in a single file is not good for readability and manintenance also. It is better to have in a modularity way like modules in terraform.
