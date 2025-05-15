@@ -50,5 +50,11 @@ If you want to remove the resources created by Terraform, you can use the follow
 ```
 terraform destroy
 ```
+## To show state file
+
+If we want to know whether state file is available or not, give command:
+```
+terraform show
+```
 
 Be cautious when using `terraform destroy` as it will delete resources as specified in your Terraform configuration.
