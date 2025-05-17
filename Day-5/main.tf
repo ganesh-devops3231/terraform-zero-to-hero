@@ -45,7 +45,7 @@ resource "aws_security_group" "webSg" {
   name   = "web"
   vpc_id = aws_vpc.myvpc.id
 
-  ingress {
+  ingress {     #In terraform inbound is mentioned as ingress
     description = "HTTP from VPC"
     from_port   = 80
     to_port     = 80
@@ -60,7 +60,7 @@ resource "aws_security_group" "webSg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  egress {
+  egress {      #In terraform outbound is mentioned as outgress
     from_port   = 0
     to_port     = 0
     protocol    = "-1"
